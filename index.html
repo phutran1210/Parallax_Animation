@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parallax</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="hero-image"></div>
+    <div class="rellax parallax-el" data-rellax-speed="4"></div>
+    <div class="rellax text" data-rellax-speed="10"></div>
+    <div class="rellax clouds" data-rellax-speed="8"></div>
+    <div class="whitespace"></div>
+    <div class="rellax content" data-rellax-speed="10">
+      <div class="row content-container">
+        <div class="col-md-4 text-container">
+          <h4>The Himalays</h4>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero cupiditate, aspernatur vitae fugit dolorem ut
+            corrupti. Ea, assumenda nesciunt. Error at minima repudiandae nisi qui?
+          </p>
+          <a href="#" class="btn explore-btn">Explore More</a>
+        </div>
+        <div class="col-md-8 img-container">
+          <div class="row">
+            <div class="col-md-3 img-small">
+              <img src="img/img-left.png" alt="img-left" />
+            </div>
+            <div class="col-md-4">
+              <img src="./img/img-mid.png" alt="img-mid" />
+            </div>
+            <div class="col-md-3 img-small">
+              <img src="img/img-right.png" alt="img-right" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./rellax.min.js"></script>
+    <script>
+      var rellax = new Rellax(".rellax");
+    </script>
+  </body>
+</html>
