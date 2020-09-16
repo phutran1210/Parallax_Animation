@@ -79,12 +79,12 @@ p {
 .img-small {
   margin-top: 50px;
 }
-@media screen and (max-width: 520px) {
+@media only screen and (max-width: 520px) {
   .parallax-el {
     background-size: cover;
     height: 50%;
   }
-  .img-container row {
+  .img-container .row {
     margin-left: 0;
     width: 100%;
   }
